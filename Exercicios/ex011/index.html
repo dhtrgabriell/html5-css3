@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>O HMTL5 permite que uma imagem, menor que a resolução maxima, seja carregada para o usuario.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flixivel">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Permite também a reprodução de audios no site.</p>
+    <p><audio src="media/good-day.mp3" controls></audio> Good Day - Music</p>
+    <p><audio src="media/a-far-cry.mp3" controls></audio> A Far Cry - Music</p>
+    <audio preload="metadata" controls>
+        <source src="media/anxiety.mp3" type="audio/mpeg">
+    </audio>Anxiety - Music
+</body>
+</html>

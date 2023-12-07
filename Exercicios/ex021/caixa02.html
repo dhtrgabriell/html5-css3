@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            border-radius: 10px;
+            box-shadow: 10px 10px 0.5em #0000007a;
+            background-color: white;
+            text-align: center;
+            margin: 20px;
+            padding: 5px;
+        }
+
+        h1 {
+            border-radius: 5px;
+            outline: 10px groove #0000006e;
+            width: 500px;
+            margin: 20px auto;
+        }
+
+        nav {
+            border-radius: 10px;
+            background-color: gray;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        a {
+            margin-right: 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            border-radius: 10px;
+            box-shadow: 10px 10px 0.5em #0000007a;
+            background-color: white;
+            margin: 20px;
+            padding: 15px;
+        }
+
+        section#futebol {
+            border-radius: 10px;
+            background-color: grey;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        section#futebol > article > h2 {
+            outline: 1px dashed #ffff00;
+            width: 100px;
+            margin: 10px auto;
+            color: #00ff00;
+        }
+
+        section#brasil {
+            border-radius: 10px;
+            background-color: grey;
+            padding: 5px;
+        }
+
+        section#brasil > article > h2 {
+            outline: 1px dashed #00ff00;
+            width: 100px;
+            margin: 10px auto;
+            color: yellow;
+        }
+
+        article {
+            text-align: center;
+        }
+
+        aside {
+            text-decoration: underline;
+        }
+
+        p {
+            color: white;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        } 
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+            box-shadow: 5px 5px 5px #0000007a;
+            text-align: center;
+        }
+
+        div#bola > p {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agrupamento de Tags</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="futebol">
+            <article>
+                <h2>Futebol</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, ullam molestias? Saepe ex nulla, odit unde similique debitis hic excepturi deleniti iure pariatur ipsa, numquam, possimus nisi facilis iusto necessitatibus!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, ullam molestias? Saepe ex nulla, odit unde similique debitis hic excepturi deleniti iure pariatur ipsa, numquam, possimus nisi facilis iusto necessitatibus!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, ullam molestias? Saepe ex nulla, odit unde similique debitis hic excepturi deleniti iure pariatur ipsa, numquam, possimus nisi facilis iusto necessitatibus!</p>
+                <aside>
+                    Artigo by Renato Russo
+                </aside>
+            </article>
+        </section>
+
+        <section id="brasil">
+            <article>
+                <h2>Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, laboriosam esse error nesciunt quae dolor eveniet vitae perferendis quo accusantium consectetur iure ipsum similique porro impedit, aut voluptate molestiae nihil.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, ullam molestias? Saepe ex nulla, odit unde similique debitis hic excepturi deleniti iure pariatur ipsa, numquam, possimus nisi facilis iusto necessitatibus!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, ullam molestias? Saepe ex nulla, odit unde similique debitis hic excepturi deleniti iure pariatur ipsa, numquam, possimus nisi facilis iusto necessitatibus!</p>
+                <aside>
+                    Artigo by Tim Maia
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pela sua mãe</p>
+    </footer>
+
+    <div id="bola"><p>cu!</p></div>
+</body>
+</html>

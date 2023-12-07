@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+img {
+    width: 200px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    border-style: double;
+    border-radius: 5px;
+    padding: 10px;
+    width: 650px;
+}
+
+main > section#dados {
+    height: 240px;
+}
+
+main > section#dados > h2 {
+    margin: 0px 0px 0px 228px;
+    background-image: linear-gradient(to right, #808080a9, white);
+    padding: 1px 1px 1px 5px;
+}
+
+main > section#dados p {
+    margin-left: 230px;
+}
+
+section#dadosprf {
+    margin-top: 10px;
+}
+
+section#dadosprf > h2 {
+    background-image: linear-gradient(to right, #808080a9, white);
+    margin: 0px;
+    padding: 1px 1px 1px 5px;
+}
+
+section#exp {
+    margin-top: 10px;
+}
+
+section#exp > h2{
+    background-image: linear-gradient(to right, #808080a9, white);
+    margin: 0px;
+    padding: 1px 1px 1px 5px;
+}
+
+section#expecursos {
+    margin-top: 10px;
+}
+
+section#expecursos > h2 {
+    background-image: linear-gradient(to right, #808080a9, white);
+    margin: 0px;
+    padding: 1px 1px 1px 5px;
+}

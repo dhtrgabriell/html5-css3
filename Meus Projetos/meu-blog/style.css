@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Street';
+    src: url('fonts/docallismeonstreet.otf.otf') format(opentype), url('fonts/docallismeonstreet.ttf.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Blank River';
+    src: url('fonts/BlankRiver.ttf.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Don Graffiti';
+    src: url('fonts/DonGraffiti.otf.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sister Spray';
+    src: url('fonts/SisterSpray.ttf.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Saturday';
+    src: url('fonts/Saturday.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+main {
+    background-color: #e7fcfd;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #127369a4;
+    margin: auto;
+    width: 1500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 15px;
+}
+
+div {
+    height: 635px;
+}
+
+img {    
+    border-radius: 10px;
+    margin: auto;
+}
+
+h1 {
+    font: normal normal 5em 'Street';
+    text-align: center;
+}
+
+h2 { 
+    font: normal normal 2em 'Don Graffiti', sans-serif;
+    text-align: center;
+}
+
+h3{ 
+    margin-top: 0%;
+    font: normal normal 1.5em 'Don Graffiti', sans-serif;
+    text-align: center;
+}
+
+p {
+    font: normal lighter 2em 'Saturday', sans-serif;
+    text-align: justify;
+}
+
+.primeiro {
+    position: absolute;
+    margin-left: 520px;
+    margin-right: 150px;
+}
+
+.foto13 {
+    position: absolute;
+    margin-left: 0px;
+}
+
+.segundo {
+    position: absolute;
+    margin-right: 670px;
+}
+
+.foto24 {
+    position: absolute;
+    margin-left: 1000px;
+    
+}

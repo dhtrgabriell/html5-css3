@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+                   /* box-level */
+        h1 { 
+            background-color: lightgray;
+            height: 350px;
+            width: 350px;
+            /* width - forma - cor */
+            border: 10px solid darkslategray;
+            /* top - right - bottom - left */
+            margin: 20px  auto 40px auto;
+            /* top - right - bottom - left */
+            padding: 10px;
+            /* width - forma - cor */
+            outline: 5px dashed salmon;
+        }
+                 /* inline-level */
+        a {
+            background-color: lightgray;
+
+            border: 10px solid red;
+
+            padding: 10px;
+        }
+
+        .solida {
+            border: 10px solid #00ff008f;
+            padding: 5px;
+        }
+
+        .tracos {
+            border: 10px dashed #0000ff8f;
+            padding: 5px;
+        }
+
+        .pontilhada {
+            border: 10px dotted #ff00008f;
+            padding: 5px;
+        }
+
+        .dupla {
+            border: 10px double #0000008f;
+            padding: 5px;
+        }
+
+        .tresde {
+            border: 10px groove #ff00ff8f;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de box-level</h1>
+    <a href="">Exemplo de inline-level</a>
+    <h3>Alguns style-border:</h3>
+    <p class="solida">Borda Solida(solid)</p>
+    <p class="tracos">Borda em Traços(dashed)</p>
+    <p class="pontilhada">Borda em Pontilhado(dotted)</p>
+    <p class="dupla">Borda em Linha Dupla(duble)</p>
+    <p class="tresde">Borda 3D(groove)</p>
+</body>
+</html>

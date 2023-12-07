@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #7ace7ad3;
+    margin: 0px;
+    padding: 0px;
+}
+
+mark {
+    background-color: white;
+    color: #019468;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #02c288, #005b31);
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin: 0px;
+    box-shadow: 0px 5px 4px #00000079;
+}
+
+header > h1 {
+    color: white;
+    margin: 0px;
+    text-shadow: 2px 2px 2px #00000077;
+}
+
+header > p {
+    color: #ffffffc4;
+    margin: 40px;
+    text-shadow: 2px 2px 2px #00000077;
+}
+
+nav {
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    width: 800px;
+    margin: 0px auto;
+    padding: 10px 0px;
+}
+
+main > h1 {
+    font-family: 'Idroid', sans-serif;
+    color: #005b31;
+    margin: 0px; 
+    padding: 10px;  
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 10px;
+    margin: 10px;
+}
+
+main > h2 {
+    font-family: 'Idroid', sans-serif;
+    color: #005b31;
+    background-image: linear-gradient(to right, #7ace7ace, white);
+    padding: 5px;
+    margin: 10px;
+}
+
+main > p > a {
+    color: #019468;
+    text-decoration: none;
+}
+
+main > p > a:hover {
+    text-decoration: underline;
+}
+
+main > div {
+    background-color: #005b31;
+    margin: 0px;
+    padding: 10px;
+}
+
+main > div > iframe {
+    margin: auto;
+}
+
+section {
+    background-color: #a3e7a3d3;
+    box-shadow: 8px 8px 5px #00000046;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 20px;
+}
+
+section > h3 {
+    background-color: #019468;
+    text-shadow: 1px 1px 1px #0000007a;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+    padding: 10px;
+}
+
+section > p {
+    margin: 10px;
+}
+
+footer {
+    background-color: #005b31;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    padding: 5px;
+}
+
+footer > p {
+    color: white;
+}
