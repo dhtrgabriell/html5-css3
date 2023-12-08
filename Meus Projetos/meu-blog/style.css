@@ -1,4 +1,10 @@
 @charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 @font-face {
     font-family: 'Street';
     src: url('fonts/docallismeonstreet.otf.otf') format(opentype), url('fonts/docallismeonstreet.ttf.ttf') format(truetype);
