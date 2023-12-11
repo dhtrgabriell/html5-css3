@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Fundo</title>
+    <style>
+        .quadrado {
+            border: 3px solid black;
+            height: 300px;
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        div#q1 {
+            background-image: url('imagens/pattern002.png');
+            background-size: 100px 100px;
+        }
+
+        div#q2 {
+            background-image: url('imagens/pattern003.png');
+            background-repeat: no-repeat;
+            margin-bottom: 10px;
+        }
+
+        div#q3 {
+            background-image: url('imagens/pattern003.png');
+            background-repeat: repeat;
+            margin-top: 10px;
+        }
+
+        div#q4 {
+            background-image: url("imagens/pattern004.png");
+            background-repeat: repeat-x;
+        }
+
+        div#q5 {
+            background-image: url("imagens/pattern004.png");
+            background-repeat: repeat-y;
+        }
+    </style>
+</head>
+<body>
+    <h2>background-size : determinando o tamanho da imagem: Ex: 100x100</h2>
+    <p>OBS: o site carrega o tamanho original da imagem</p>
+    <div class="quadrado" id="q1"></div>
+    <h2>background-repeat : determinar se a imagem vai se repetir ou não</h2>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+    <h2>repeat-x : repete a imagem no eixo X</h2>
+    <div class="quadrado" id="q4"></div>
+    <h2>repeat-y : repete a imagem no eixo Y</h2>
+    <div class="quadrado" id="q5"></div>
+</body>
+</html>
