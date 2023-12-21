@@ -42,6 +42,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     padding: 5px;
+    transition-duration: 0.6s;
 }
 
 .cab-menu-link:hover {
@@ -92,6 +93,7 @@ body {
     font-weight: 400;
     font-size: 24px;
     color: #2f2325;
+    transition-duration: 0.6s;
 }
 
 .botao:hover {
